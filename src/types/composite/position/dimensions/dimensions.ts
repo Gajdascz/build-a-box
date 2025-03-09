@@ -1,3 +1,12 @@
+//#region>Meta
+/**
+ * @file src/types/composite/position/dimensions/dimensions.ts
+ * @author [Nolan Gajdascz](https://github.com/gajdascz)
+ * @copyright
+ * - (c) 2025 Nolan Gajdascz [Email](mailto:dev.gajdascz\@gmail.com) | [GitHub](https://github.com/gajdascz)
+ * - [Licensed under MIT](https://opensource.org/license/MIT)
+ */
+//#endregionM
 import { type Group, type Position, Num, Obj } from '../../../base/base.js';
 
 const C = {
@@ -141,7 +150,11 @@ const get = {
 } as const;
 
 export {
-  add,
+  type CreateTypedCfgOpts,
+  type Dimensions,
+  type Type,
+  type Typed,
+  type TypedInput, add,
   C,
   calculate,
   createTypedCfg,
@@ -152,10 +165,6 @@ export {
   isTyped,
   STRATEGY,
   subtract,
-  sum,
-  type CreateTypedCfgOpts,
-  type Dimensions,
-  type Type,
-  type Typed,
-  type TypedInput
+  sum
 };
+

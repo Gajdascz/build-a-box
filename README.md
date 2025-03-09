@@ -11,9 +11,9 @@ edge path resolution (direct and offset).
 ## ToDo:
 
 - Documentation
-  - major modules
   - primary README.md
   - images/examples/guides
+  - licensing headers
 - Cleanup:
   - unused code
   - comments
