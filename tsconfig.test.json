@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "strict": false,
+    "paths": {
+      "#core": ["src/core/core.ts"],
+      "#srcTypes": ["src/types/types.ts"]
+    },
+    "strictNullChecks": true,
+    "allowUnusedLabels": true,
+    "allowUnreachableCode": true,
+
+    "noImplicitAny": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitOverride": false
+  },
+  "include": ["src/**/*.test.ts"],
+  "exclude": ["node_modules", "**/docs/**"]
+}

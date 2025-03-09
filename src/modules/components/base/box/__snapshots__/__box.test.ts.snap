@@ -1,0 +1,163 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Box Module > Box > Border Character Manipulation > removes entire border sides 1`] = `
+" ────────────┐
+ Test Content│
+ ────────────┘"
+`;
+
+exports[`Box Module > Box > Border Character Manipulation > removes entire border sides 2`] = `
+" ──────────── 
+ Test Content 
+ ──────────── "
+`;
+
+exports[`Box Module > Box > Border Character Manipulation > removes entire border sides 3`] = `
+"              
+ Test Content 
+ ──────────── "
+`;
+
+exports[`Box Module > Box > Border Character Manipulation > removes entire border sides 4`] = `
+"              
+ Test Content 
+              "
+`;
+
+exports[`Box Module > Box > Border Character Manipulation > sets individual border characters 1`] = `
+"┌─*──────────┐
+#Test Content@
+└─$──────────┘"
+`;
+
+exports[`Box Module > Box > Box Orientation Variations > renders horizontal boxes 1`] = `
+"┌──────────────────────┐
+│Horizontal Box Content│
+└──────────────────────┘"
+`;
+
+exports[`Box Module > Box > Box Orientation Variations > renders vertical boxes 1`] = `
+"┌────────┐
+│Vertical│
+│Box     │
+│Content │
+└────────┘"
+`;
+
+exports[`Box Module > Box > Box with Different Border Styles > renders content with various border styles 1`] = `
+"┌────────────┐
+│test content│
+└────────────┘"
+`;
+
+exports[`Box Module > Box > Box with Different Border Styles > renders content with various border styles 2`] = `
+"┏━━━━━━━━━━━━┓
+┃test content┃
+┗━━━━━━━━━━━━┛"
+`;
+
+exports[`Box Module > Box > Box with Different Border Styles > renders content with various border styles 3`] = `
+"╔════════════╗
+║test content║
+╚════════════╝"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders multi-line content correctly 1`] = `
+"┌──────────┐
+│Javascript│
+│Perl      │
+└──────────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders multi-line content correctly 2`] = `
+"┌──────┐
+│C++   │
+│Java  │
+│Python│
+│Ruby  │
+│Rust  │
+└──────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders multi-line content correctly 3`] = `
+"┌─┐
+│C│
+└─┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders multi-line content correctly 4`] = `
+"┌──────────────────┐
+│Data Structure    │
+│and               │
+│Algorithm Analysis│
+│in C              │
+└──────────────────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders multi-line content correctly 5`] = `
+"┌──────────┐
+│Typescript│
+│CSS       │
+│HTML      │
+└──────────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single character content 1`] = `
+"┌─┐
+│A│
+└─┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single character content 2`] = `
+"┌─┐
+│B│
+└─┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single character content 3`] = `
+"┌─┐
+│C│
+└─┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single character content 4`] = `
+"┌─┐
+│D│
+└─┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single character content 5`] = `
+"┌─┐
+│E│
+└─┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single-line content with different lengths 1`] = `
+"┌──────────────────┐
+│longer than medium│
+└──────────────────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single-line content with different lengths 2`] = `
+"┌────────────────────────┐
+│still longer than medium│
+└────────────────────────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single-line content with different lengths 3`] = `
+"┌───────────────────────────┐
+│now much longer than medium│
+└───────────────────────────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single-line content with different lengths 4`] = `
+"┌──────────────────────────────────────────┐
+│now much longer than medium plus some more│
+└──────────────────────────────────────────┘"
+`;
+
+exports[`Box Module > Box > Box with Various Contents > renders single-line content with different lengths 5`] = `
+"┌───────────┐
+│short again│
+└───────────┘"
+`;

@@ -1,0 +1,163 @@
+{
+  // explorer
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, README.md, ${capture}.*.ts, _${capture}.*.ts, __${capture}.*.ts,${capture}.md",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts, ${capture}.d.ts.map, .tsbuildinfo",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "package.json": ".*, *.json, *.yaml, *config, *config.js,*config.cjs,LICENSE,*.ts",
+    "index.*": "*",
+    "modules.ts": "*.ts",
+    "config.*": "*.${capture}",
+    "fns.*": "*.${capture}",
+    "constants.*": "*.${capture}",
+    "commands.*": "*.${capture}",
+    "core.*": "*.${capture}"
+  },
+  "explorer.incrementalNaming": "smart",
+  "explorer.sortOrder": "type",
+  "material-icon-theme.folders.associations": {
+    "deps": "packages"
+  },
+  "material-icon-theme.files.associations": {
+    "tsconfig.dev.json": "tsconfig"
+  },
+  // color-highlight
+  "color-highlight.rgbWithNoFunctionLanguages": ["javascript", "typescript", "*"],
+  "color-highlight.hslWithNoFunctionLanguages": ["javascript", "typescript", "*"],
+  "color-highlight.matchRgbWithNoFunction": true,
+
+  // better-comments
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "#region>Meta",
+      "color": "#9d78e0",
+      "strikethrough": false,
+      "underline": true,
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "#endregionM",
+      "color": "#4f3c73",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "#region>Imports",
+      "color": "#e09d78",
+      "strikethrough": false,
+      "underline": true,
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "#endregionI",
+      "color": "#734f3c",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "#region->",
+      "color": "#e0b000",
+      "strikethrough": false,
+      "underline": true,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "#endregion.",
+      "color": "#5c4801",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "#region>",
+      "color": "#4B9CD3 ",
+      "strikethrough": false,
+      "underline": true,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "#endregion",
+      "color": "#2B5F8A ",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "!",
+      "color": "#ff3333",
+      "backgroundColor": "transparent",
+      "bold": false,
+      "multilineComments": false
+    },
+    {
+      "tag": "- !",
+      "color": "#ff3333",
+      "backgroundColor": "transparent",
+      "bold": false,
+      "multilineComments": false
+    },
+    {
+      "tag": "@deprecated",
+      "color": "#ff3333",
+      "backgroundColor": "transparent",
+      "bold": false,
+      "multilineComments": true
+    },
+    {
+      "tag": "@important",
+      "color": "#00ddFF",
+      "backgroundColor": "transparent",
+      "bold": true,
+      "underline": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "x--",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  // prettier
+  "prettier.requireConfig": true,
+  "prettier.ignorePath": "./.prettierignore",
+  "prettier.configPath": "./.prettierrc",
+
+  "eslint.useFlatConfig": true,
+  "cSpell.words": ["depcruise", "depcruiser", "depgraph", "oddify", "outpipe", "paren", "parens"]
+}

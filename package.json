@@ -1,0 +1,62 @@
+{
+  "name": "build-a-box",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gajdascz/build-a-box"
+  },
+  "type": "module",
+  "license": "MIT",
+  "description": "",
+  "keywords": [],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "Nolan Gajdascz <dev.gajdascz@gmail.com> (https://github.com/gajdascz)",
+  "config": {},
+  "scripts": {
+    "test": "pnpm vitest -- --config ./dev/testUtils/vitest.config.js",
+    "build": "pnpm tsc",
+    "get:depsReport": "npx depcruise src --include-only \"^src\" --output-type dot | dot -T svg > ./docs/dependencies/dependencies.svg && npx depcruise src --include-only \"^src\" --output-type html > ./docs/dependencies/dependencies.html && npx depcruise src --include-only \"^src\" --output-type json > ./docs/dependencies/dependencies.json"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@microsoft/tsdoc-config": "^0.17.1",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "^22.13.10",
+    "@types/wait-on": "^5.3.4",
+    "@typescript-eslint/utils": "^8.26.0",
+    "@vitest/coverage-v8": "^2.1.9",
+    "@vitest/ui": "^2.1.9",
+    "dependency-cruiser": "^16.10.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tsdoc": "^0.3.0",
+    "mermaid": "^11.4.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-jsdoc": "^1.3.2",
+    "tsx": "^4.19.3",
+    "typedoc": "^0.26.11",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0",
+    "vitest": "^2.1.9",
+    "wait-on": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=22.11.0",
+    "pnpm": ">=10.6.1"
+  },
+  "main": "./dist/app.js",
+  "imports": {
+    "#core": "./dist/core/core.js",
+    "#srcTypes": "./dist/types/types.js",
+    "#devUtils": "./dev/utils/utils.ts",
+    "#testUtils": "./dev/testUtils/testUtils.ts"
+  },
+  "packageManager": "pnpm@10.6.1+sha512.40ee09af407fa9fbb5fbfb8e1cb40fbb74c0af0c3e10e9224d7b53c7658528615b2c92450e74cfad91e3a2dcafe3ce4050d80bda71d757756d2ce2b66213e9a3",
+  "dependencies": {
+    "@toolbox-ts/dsa": "^0.1.0"
+  }
+}

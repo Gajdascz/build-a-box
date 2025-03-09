@@ -1,0 +1,80 @@
+{
+  "contributor-entry": {
+    "prefix": ">contrib",
+    "body": [
+      " * ${1:${1:}} [GitHub](https://github.com/${2:user${1:}}) [Email](mailto:${3:optionalEmail})",
+      " * └─> ${4:contribution}"
+    ]
+  },
+  "meta": {
+    "prefix": ">meta",
+    "body": [
+      "//#region>Meta",
+      "/**",
+      " * @file $RELATIVE_FILEPATH",
+      " * @author [${1:Nolan Gajdascz}](https://github.com/${2:gajdascz})",
+      " * @copyright",
+      " * - (c) 2025 Nolan Gajdascz [Email](mailto:dev.gajdascz\\@gmail.com) | [GitHub](https://github.com/gajdascz)",
+      " * - [Licensed under MIT](https://opensource.org/license/MIT)",
+      " */",
+      "//#endregionM"
+    ],
+    "description": "File Metadata."
+  },
+  "Box Drawing Horizontal": {
+    "prefix": ">lHor",
+    "body": "─"
+  },
+  "Box Drawing Vertical": {
+    "prefix": ">lVer",
+    "body": "│"
+  },
+  "Box Drawing Corner Top Left": {
+    "prefix": [
+      ">tlc",
+      ">downRight"
+    ],
+    "body": "┌"
+  },
+  "Box Drawing Corner Top Right": {
+    "prefix": [
+      ">trc",
+      ">leftDown"
+    ],
+    "body": "┐"
+  },
+  "Box Drawing Corner Bottom Left": {
+    "prefix": [
+      ">blc",
+      ">upRight"
+    ],
+    "body": "└"
+  },
+  "Box Drawing Corner Bottom Right": {
+    "prefix": [
+      ">brc",
+      ">leftUp"
+    ],
+    "body": "┘"
+  },
+  "Box Drawing Junction Cross": {
+    "prefix": ">jCross",
+    "body": "┼"
+  },
+  "Box Drawing Junction Up": {
+    "prefix": ">jUp",
+    "body": "┴"
+  },
+  "Box Drawing Junction Down": {
+    "prefix": ">jDown",
+    "body": "┬"
+  },
+  "Box Drawing Junction Left": {
+    "prefix": ">jLeft",
+    "body": "┤"
+  },
+  "Box Drawing Junction Right": {
+    "prefix": ">jRight",
+    "body": "├"
+  },
+}
